@@ -1,1 +1,1 @@
-# showcase
+# Angular2 + Spring Showcase

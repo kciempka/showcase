@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { AlertModule } from 'ng2-bootstrap/ng2-bootstrap';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -13,4 +13,9 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
+@NgModule({
+   imports: [AlertModule ]
+})
+
 export class AppModule { }
